@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Single Day', cursive;
+}
+
+header h1,
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+    position: fixed;
+    top: 0;
+    width: 100%; /* Adicione a cor de fundo desejada */
+    z-index: 1000;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li  a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    color: black;
+    font-size: 24px;
+
+}
+
+.conternier{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .conternier,
+section .conternier,
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 50px;
+}
+
+.brands-list li{
+    display: inline;
+}
+
+.conteudo{
+    margin-left: 24px;
+}
+
+.conteudo h2 {
+    margin-bottom: 10px;
+}
+
+section  .conternier{
+    align-items: flex-start;
+    margin-top: 24px;
+}
+
+.principal-img{
+    width: auto;
+}
+
+.logo{
+    background-color: #182c61;
+    width: 50px;
+}
+
+header .conternier h1 {
+    margin-right: 600px;
+}
+
+#contatosec{
+    display: block;
+}
+
+.contatos{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin-top: 25px;
+    margin-bottom: 50px;    
+}
+
+.faleconosco form input,
+form textarea,
+form button {
+    display: block;
+    width: 350px;
+    padding: 5px;
+    margin-top: 5px;   
+}
+
+.NosAcompanhe img {
+    width: 50px;
+}
+
+#contatosec .conternier {
+    margin-top: 25px;
+}
+
+#principal {
+    margin-top: 100px;
+}
+
+#subt , h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    
+}
+
+#NosAcompanhe, li { 
+    display: inline-block
+}
+
+#NosAcompanhe, img{
+    margin-top: 5px;
+    margin-left: 5px;
+} 
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    padding: 10px;
+}
+
+form button:hover{
+    background-color: #ecf0f1;
+    color: #182c61;
+    border-color: black;
+    border-style: inset;
+}
+
+footer{
+    background-color: #182c61;
+    width: 100%;
+    padding:20px 0
+}
+
+footer p {
+    color: #ecf0f1;
+}
